@@ -11,7 +11,7 @@ notebooks = [
     "06_metrics_evaluation.ipynb",
     "07_visuals.ipynb",
     "08_edge_analysis.ipynb",
-    "09_portfolio_simulator.ipynb"
+    "09_portfolio_simulator.ipynb",
     "10_market_edge.ipynb"
 ]
 

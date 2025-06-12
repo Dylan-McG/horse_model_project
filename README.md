@@ -7,12 +7,18 @@ All code is reproducible, and all outputs are programmatically generated for tru
 
 ## 🚦 Quickstart
 
-    git clone https://github.com/yourname/horse_model_project.git
-    cd horse_model_project
-    poetry install
+git clone https://github.com/yourname/horse_model_project.git
+cd horse_model_project
+poetry install
 
-    # Place raw data in `data/raw/`, market data in `data/market/`
-    # Run the notebooks (01 → 10) in order.
+# Place raw data in `data/raw/`, market data in `data/market/`
+
+# To run the full pipeline in sequence:
+poetry run python run_all.py
+
+# If you prefer pip:
+pip install -r requirements.txt
+python run_all.py
 
 ---
 
