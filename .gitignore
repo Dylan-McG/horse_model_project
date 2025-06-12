@@ -196,3 +196,16 @@ cython_debug/
 .venv/
 data/raw/
 outputs/
+data/raw/
+
+# Custom for horse_model_project
+.venv/
+.env
+outputs/
+data/raw/
+data/interim/
+*.csv
+*.joblib
+*.pkl
+*.lock
+*.ipynb_checkpoints

@@ -1,0 +1,17 @@
+default_model: "stackridge"
+prediction_files:
+  lgbm: "test_predictions.csv"
+  rf: "test_preds_rf.csv"
+  xgb: "test_preds_xgb.csv"
+  cat: "test_preds_cat.csv"
+  mlp: "test_preds_mlp.csv"
+  ensemble: "test_preds_ensemble.csv"
+  stackridge: "test_preds_ensemble.csv"
+column_map:
+  lgbm: "Predicted_Probability"
+  rf: "Predicted_Probability"
+  xgb: "Predicted_Probability"
+  cat: "Predicted_Probability"
+  mlp: "Predicted_Probability"
+  ensemble: "Pred_BlendAvg"
+  stackridge: "Pred_StackRidge"
